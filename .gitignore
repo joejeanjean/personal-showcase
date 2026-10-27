@@ -1,0 +1,20 @@
+# 依赖与构建产物
+node_modules/
+
+# 备份与临时目录
+*.bak
+*.bak_*
+*_bak/
+*bak_*/
+tmp_extract/
+_backup_login/
+app_admin_temp_bak/
+app_dev_bak/
+app_unpacked_dev_bak/
+
+# 日志
+*.log
+
+# 运行时缓存
+**/__pycache__/
+*.pyc
