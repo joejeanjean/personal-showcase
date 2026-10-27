@@ -1,0 +1,17 @@
+{
+  "name": "newbodor-admin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NewBodor 企业管理后台（复现云之家管理中心 + 自研底层后端，零外部依赖）",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "node test/run.js",
+    "api-test": "node test/api.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "NewBodor",
+  "license": "MIT"
+}

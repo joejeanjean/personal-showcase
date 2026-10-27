@@ -1,0 +1,13 @@
+# 依赖
+node_modules/
+
+# 运行时数据库临时文件 (SQLite WAL/SHM)
+*.db-wal
+*.db-shm
+
+# 日志
+*.log
+
+# 系统文件
+Thumbs.db
+.DS_Store
